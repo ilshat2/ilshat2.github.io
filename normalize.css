@@ -295,8 +295,8 @@
   /**
    * Удалите внутреннюю прокладку в Chrome и Safari на mac OS.
    */
-  
-  [type="search"]::-webkit-search-decoration {
+
+   [type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
   }
   
@@ -347,4 +347,4 @@
   [hidden] {
     display: none;
   }
-  
+    
