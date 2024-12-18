@@ -109,4 +109,14 @@ body {
     color: #ffffff;
     text-decoration: none;
   }
+  @media (max-width: 768px) {
+    .links {
+      width: 100%;
+      padding: 0 20px;
+    }
+  
+    .button-link {
+      width: 100%;
+    }
+  }
   
