@@ -119,4 +119,18 @@ body {
       width: 100%;
     }
   }
+  img, video {
+    max-width: 100%; /* Ограничиваем размер до ширины контейнера */
+    height: auto; /* Сохраняем пропорции */
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap; /* Перенос строк на маленьких экранах */
+    justify-content: space-around;
+  }
   
+  .item {
+    flex: 1 1 200px; /* Минимальная ширина каждого элемента 200px */
+    margin: 10px;
+  }
+    
